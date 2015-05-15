@@ -1,0 +1,28 @@
+$brand-color: rgb(22,166,143);
+$dark-brand-color: darken( $brand-color, 10% );
+$light-brand-color: lighten( $brand-color, 10% );
+$orange: rgb(255,171,84);
+$lightgrey: rgb(237,235,235);
+$mediumgrey: rgb(102,102,102);
+$darkgrey: rgb(50,50,50);
+$defaultLinkColor: $brand-color;
+$background-color: $lightgrey;
+$canvas: white;
+
+$canvas-vivid: white;
+$canvas-hard: white;
+$canvas-soft: #eee;
+$canvas-dim: #ddd;
+
+$content: #333;
+	
+$feature: blue; // widget, 'special canvas'
+$primary: navy; // main branding
+$secondary: purple; // secondary branding
+
+$glow: rgba(255,255,255,.6);
+$shade: rgba(0,0,0,.4);
+
+body{
+	background: $background-color;
+}

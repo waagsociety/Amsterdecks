@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>three.js webgl - materials - shaders [custom]</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+		<style>
+			body {
+				background-color: #f2f2f2;
+			}
+			a {
+				color: #ffffff;
+			}
+			#oldie a { color:#da0 }
+			#watermap{
+				margin: auto;
+				max-width: 50%;
+			}
+		</style>
+		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+	</head>
+	<body>
+		<section id="watermap">
+			
+		</section>
+			<script type="text/javascript">
+				var watermap = document.getElementById("watermap");
+				
+				d3.xml("newmap.svg", function(xml) {
+  				watermap.appendChild(xml.documentElement);
+					d3.selectAll(".prinsengracht rect").style("fill", "red");		
+				});
+
+			</script>
+		
+	</body>
+</html>
