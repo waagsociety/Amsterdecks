@@ -3,26 +3,10 @@ body {
 }
 #webgl {
   position: absolute;
-  left:25%;
+  left:15%;
   right: 0;
   background-color: black;
   height: 100%;
-}
-.sideBar{
-	position: absolute;
-	left: 0;
-	top: 0;
-	height: 100%;
-	background: white;
-	padding: $small-percentage;
-	width: 25%;
-}
-.sideBar section h1{
-	margin-bottom: .5em;
-	margin-top: 1.5em;
-}
-.sideBar section h2{
-	margin-bottom: .5em;
 }
 
 .views{
@@ -40,6 +24,7 @@ body {
 	margin-bottom: 0;
 	line-height: 0;
 	color: $canvas;
+	cursor: pointer;
 }
 .views li:first-child{
 	margin-right: .4em;

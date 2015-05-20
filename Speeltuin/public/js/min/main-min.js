@@ -1,1 +1,1 @@
-$(".sideBar section h1").click(function(){$(".sideBar ul").slideToggle()});
+$(document).on("click",".sideBar section",function(){$(this).hasClass("open")&&($(this).removeClass("closed"),$(this).addClass("open"),$(this).find("ul").slideDown()),$(this).hasClass("closed")&&($(this).removeClass("closed"),$(this).addClass("open"),$(this).find("ul").slideDown())}),$(document).on("click",".open h1",function(){$(".open").removeClass("open").find("ul").slideUp("fast",function(){$(".accordionWidget").addClass("closed")})});

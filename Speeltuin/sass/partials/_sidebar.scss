@@ -1,0 +1,49 @@
+.sideBar{
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	background: white;
+	width: 15%;
+	padding: $tiny-percentage 0;
+}
+.sideBar section{
+	float: left;
+	width: 100%;
+}
+.sideBar section h1{
+	padding: $small-percentage $medium-percentage;
+}
+.sideBar section p{
+	padding: 0 $medium-percentage $small-percentage;
+}
+.sideBar section li>*{
+	padding: $xsmall-percentage $medium-percentage;
+}
+.sideBar section p{
+	margin-bottom: 0;
+}
+.sideBar section h2{
+	margin-bottom: .5em;
+}
+.sideBar section ul{
+	display: none;
+}
+.accordionWidget{
+	cursor: pointer;
+	    border-bottom: 1px solid white;
+	transition: all .15s cubic-bezier(1.000, -0.005, 0.720, 1.005);
+}
+.accordionWidget:hover{
+	background-color: $lightgrey;
+}
+.accordionWidget.open{
+	background-color: $lightgrey;
+}
+.accordionWidget.open li:hover{
+	
+	background-color: $hover;
+}
+//.accordionWidget>ul{
+//	margin-top: 1em;
+//}
