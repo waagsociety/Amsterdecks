@@ -21,6 +21,7 @@
     "partials/_search.scss",
     "partials/_forms.scss",
     "partials/_sidebar.scss",
+    "partials/_map.scss",
     "partials/_elements.scss",
     "partials/_mediaqueries.scss"
   ],

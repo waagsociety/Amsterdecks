@@ -660,7 +660,7 @@ body {
   overflow: hidden; }
 
 /* line 4, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/layout */
-#webgl {
+#map {
   position: absolute;
   left: 15%;
   right: 0;

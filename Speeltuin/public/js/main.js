@@ -1,11 +1,3 @@
-//$('.sideBar section').click(function(){
-//	$(this).addClass('open').find('ul').slideDown();
-//});
-
-//$('.sideBar section h1').click(function(){
-//	$(this).removeClass('open').find('ul').slideUp();
-//});
-
 $(document).on('click', '.sideBar section', function() { 
 	if($(this).hasClass('open')){
 		$(this).removeClass('closed');
@@ -23,4 +15,3 @@ $(document).on('click', '.open h1', function() {
      $('.accordionWidget').addClass('closed');
   });
 });
-
