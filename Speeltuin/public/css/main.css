@@ -534,13 +534,13 @@ li {
   opacity: 1; }
 
 body {
-  overflow: hidden; }
+  overflow: hidden;
+  transition: all 0.5s ease; }
 
 #map {
   position: absolute;
   left: 15%;
   right: 0;
-  background-color: black;
   height: 100%; }
 
 .views {
@@ -549,18 +549,21 @@ body {
   bottom: 0;
   z-index: 999;
   padding: 1%;
-  margin-right: .4em; }
+  background: white;
+  box-shadow: 0px 0px 5px 1px rgba(50, 50, 50, 0.3); }
 
 .views li {
   display: inline;
   font-size: 2.5em;
   margin-bottom: 0;
   line-height: 0;
-  color: white;
   cursor: pointer; }
 
 .views li:first-child {
   margin-right: .4em; }
+
+.prinsengracht {
+  transform-origin: center center; }
 
 .logo {
   max-width: 60px;
@@ -594,7 +597,8 @@ video {
   height: 100%;
   background: white;
   width: 15%;
-  padding: 1% 0; }
+  padding: 1% 0;
+  box-shadow: 0px 0px 5px 1px rgba(50, 50, 50, 0.3); }
 
 .sideBar section {
   float: left;

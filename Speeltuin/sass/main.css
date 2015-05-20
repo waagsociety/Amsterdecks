@@ -44,7 +44,7 @@ table {
 div, section, nav {
   position: relative; }
 
-/* line 27, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/modules/colors */
+/* line 29, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/modules/colors */
 body {
   background: #edebeb; }
 
@@ -657,24 +657,25 @@ dd, dt, li {
 
 /* line 1, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/layout */
 body {
-  overflow: hidden; }
+  overflow: hidden;
+  transition: all 0.5s ease; }
 
 /* line 4, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/layout */
 #map {
   position: absolute;
   left: 15%;
   right: 0;
-  background-color: black;
   height: 100%; }
 
-/* line 12, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/layout */
+/* line 11, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/layout */
 .views {
   position: fixed;
   right: 0;
   bottom: 0;
   z-index: 999;
   padding: 1%;
-  margin-right: 0.4em; }
+  background: white;
+  box-shadow: 0px 0px 5px 1px rgba(50, 50, 50, 0.3); }
 
 /* line 21, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/layout */
 .views li {
@@ -682,12 +683,15 @@ body {
   font-size: 2.5em;
   margin-bottom: 0;
   line-height: 0;
-  color: white;
   cursor: pointer; }
 
-/* line 29, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/layout */
+/* line 28, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/layout */
 .views li:first-child {
   margin-right: 0.4em; }
+
+/* line 32, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/layout */
+.prinsengracht {
+  transform-origin: center center; }
 
 /* line 1, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/menus */
 .logo {
@@ -726,52 +730,53 @@ video {
   height: 100%;
   background: white;
   width: 15%;
-  padding: 1% 0; }
+  padding: 1% 0;
+  box-shadow: 0px 0px 5px 1px rgba(50, 50, 50, 0.3); }
 
-/* line 10, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
+/* line 11, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
 .sideBar section {
   float: left;
   width: 100%; }
 
-/* line 14, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
+/* line 15, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
 .sideBar section h1 {
   padding: 4% 8%; }
 
-/* line 17, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
+/* line 18, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
 .sideBar section p {
   padding: 0 8% 4%; }
 
-/* line 20, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
+/* line 21, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
 .sideBar section li > * {
   padding: 2% 8%; }
 
-/* line 23, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
+/* line 24, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
 .sideBar section p {
   margin-bottom: 0; }
 
-/* line 26, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
+/* line 27, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
 .sideBar section h2 {
   margin-bottom: 0.5em; }
 
-/* line 29, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
+/* line 30, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
 .sideBar section ul {
   display: none; }
 
-/* line 32, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
+/* line 33, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
 .accordionWidget {
   cursor: pointer;
   border-bottom: 1px solid white;
   transition: all 0.15s cubic-bezier(1, -0.005, 0.72, 1.005); }
 
-/* line 37, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
+/* line 38, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
 .accordionWidget:hover {
   background-color: #edebeb; }
 
-/* line 40, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
+/* line 41, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
 .accordionWidget.open {
   background-color: #edebeb; }
 
-/* line 43, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
+/* line 44, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
 .accordionWidget.open li:hover {
   background-color: #d5d0d0; }
 

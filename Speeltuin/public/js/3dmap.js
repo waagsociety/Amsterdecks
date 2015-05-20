@@ -87,7 +87,7 @@ if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
 				
 				
         // Renderer
-        renderer = new THREE.WebGLRenderer({antialias: true});
+        renderer = new THREE.WebGLRenderer({antialias: true, alpha: true});
         renderer.setPixelRatio( window.devicePixelRatio );
         renderer.setSize(container.clientWidth, container.clientHeight);
         container.appendChild(renderer.domElement);

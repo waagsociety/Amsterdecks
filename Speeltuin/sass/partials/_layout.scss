@@ -1,11 +1,10 @@
 body {
-	overflow: hidden;
+	overflow: hidden; transition: all 0.5s ease;
 }
 #map {
   position: absolute;
   left:15%;
   right: 0;
-  background-color: black;
   height: 100%;
 }
 
@@ -15,7 +14,8 @@ body {
 	bottom: 0;
 	z-index: 999;
 	padding: $tiny-percentage;
-	margin-right: .4em;
+	background: $canvas;
+	box-shadow: $shadow;
 }
 
 .views li{
@@ -23,9 +23,12 @@ body {
 	font-size: 2.5em;
 	margin-bottom: 0;
 	line-height: 0;
-	color: $canvas;
 	cursor: pointer;
 }
 .views li:first-child{
 	margin-right: .4em;
+}
+
+.prinsengracht{
+transform-origin: center center;
 }

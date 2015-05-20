@@ -4,9 +4,11 @@ $('.views .metromap').click(function(){
 		d3.xml("data/metromap.svg", function(xml) {
 			watermap.appendChild(xml.documentElement);
 			$(document).on('click', '.open li p', function() { 
-				d3.selectAll("rect").style("fill", function() {
-					return "hsl(" + Math.random() * 360 + ",100%,50%)";
-				});			
+				d3.selectAll("rect").style("display", "none");	
+				d3.selectAll(".prinsengracht rect").style("display", "block");	
+				d3.selectAll(".prinsengracht rect").style("fill", "red");	
+				
+				d3.selectAll(".prinsengracht rect").style("position", "absolute");	
 			});
 	});
 });
