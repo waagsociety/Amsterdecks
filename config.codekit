@@ -98,6 +98,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/Speeltuin\/public\/js\/3dmap.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/3dmap.js",
+		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/3dmap-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/Speeltuin\/public\/js\/codemirror.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -141,6 +152,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/Speeltuin\/public\/js\/jquery.nouislider.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/jquery.nouislider.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/Speeltuin\/public\/js\/lib\/d3.v3.min.js": {
 		"fileType": 64,
@@ -803,12 +823,45 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/Speeltuin\/public\/js\/metromap.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/metromap.js",
+		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/metromap-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Speeltuin\/public\/js\/min\/3dmap-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/3dmap-min.js",
+		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/min\/3dmap-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/Speeltuin\/public\/js\/min\/main-min.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/main-min.js",
 		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/min\/main-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Speeltuin\/public\/js\/min\/metromap-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/metromap-min.js",
+		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/min\/metromap-min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -1192,6 +1245,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Speeltuin\/sass\/vendors\/_codemirror.scss",
 		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_codemirror.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/Speeltuin\/sass\/vendors\/_uislider.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Speeltuin\/sass\/vendors\/_uislider.scss",
+		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_uislider.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

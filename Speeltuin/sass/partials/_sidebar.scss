@@ -7,6 +7,7 @@
 	width: 15%;
 	padding: $tiny-percentage 0;
 	box-shadow: $shadow;
+	overflow-y: auto;
 }
 .sideBar section{
 	float: left;
@@ -14,6 +15,9 @@
 }
 .sideBar section h1{
 	padding: $small-percentage $medium-percentage;
+}
+.accordionWidget h1 span{
+	color: $blue-500 !important;
 }
 .sideBar section p{
 	padding: 0 $medium-percentage $small-percentage;
@@ -48,3 +52,24 @@
 //.accordionWidget>ul{
 //	margin-top: 1em;
 //}
+.ctrl-list-item{
+	padding-top: 1%;
+}
+.range-val-lower{
+	text-align: left;
+}
+.range-val-upper{
+	text-align: right;
+	float: right;
+}
+.noHover:hover, .ctrl-list-item:hover{
+	background: transparent !important;
+}
+.noHover{
+	cursor: auto !important;
+}
+
+.accordionWidget ul li h2{
+	margin-top: 1.2em;
+	margin-bottom: 0;
+}

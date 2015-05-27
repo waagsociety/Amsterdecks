@@ -1,4 +1,7 @@
 $('.views .metromap').click(function(){
+	// Clear #map DOM element first
+	$("#map").empty();
+	
 	// SVG Map
 	var watermap = document.getElementById("map");
 		d3.xml("data/metromap.svg", function(xml) {

@@ -49,9 +49,6 @@ if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
 				renderer.render( scene, camera );
 			}
 
-
-
-			
       function init() {
 				
         container = document.getElementById('map');
@@ -194,7 +191,7 @@ if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
         var amount;
 
         var extrudeSettings = {
-          amount: 5,
+          amount: 20,
           bevelEnabled: false
         };
 
@@ -211,18 +208,18 @@ if ( ! Detector.webgl ) Detector.addGetWebGLMessage();
         }
         return group;
       }
-
       window.onhashchange = function() {
         if (!disableHashChange) {
           parseHash(location.hash.substring(1))
         }
       };
-
       if (location.hash) {
         parseHash(location.hash.substring(1));
       }
 			$('.views .3dmap').click(function(){
-					// Initalize WebGL!
-					init();
-					animate();
-				});
+				// Clear #map DOM element first
+				$("#map").empty();
+				// Initalize WebGL!
+				init();
+				animate();
+			});

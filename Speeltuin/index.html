@@ -17,6 +17,7 @@
     <script src="public/js/codemirror.js"></script>
     <script src="public/js/javascript.js"></script>
     <script src="public/js/geo.js"></script>
+    <script src="public/js/jquery.nouislider.all.min.js"></script>
 		
 		<script type="x-shader/x-vertex" id="vertexshader">
 			varying vec2 vUv;
@@ -80,13 +81,31 @@
 			</section>
 			
 			<section class="accordionWidget closed">
-				<h1 class="epsilon closed">Vegatatie kaart <span class="icon-down right"></span></h1>
+				<h1 class="epsilon closed">Ecologische  kaart <span class="icon-down right"></span></h1>
 				<ul>
-					<li><h2 class="zeta">Overstorts</h2></li>
-					<li><p>100 - 200 Liter</p></li>
-					<li><p>200 - 300 Liter</p></li>
-					<li><p>300 - 400 Liter</p></li>
-					<li><p>500 - 600 Liter</p></li>
+					<li class="ctrl-list-item noHover"> 
+						<h2 class="epsilon">Planten</h2>
+						
+						<p>Bedekkingspercentages planten (<span id="macrofyten-val"></span>%)</p>
+						<div id="macrofyten-slider"></div>
+						<span id="macrofyten-skip-value-lower" class="example-val range-val-lower">0</span>
+						<span id="macrofyten-skip-value-upper" class="example-val range-val-upper">100</span>
+					</li>
+					
+					<li class="ctrl-list-item noHover"> 
+						<h2 class="epsilon">Vissen</h2>
+						
+						<p>Plant minnende vissen</p>
+						<div id="plantminnend-slider"></div>
+						<span id="plantminnend-skip-value-lower" class="example-val range-val-lower">0</span>
+						<span id="plantminnend-skip-value-upper" class="example-val range-val-upper">100</span>
+						
+						<p>Zuurstoftolerante vissen</p>
+						<div id="zuurstoftolerante-slider"></div>
+						<span id="zuurstoftolerante-skip-value-lower" class="example-val range-val-lower">0</span>
+						<span id="zuurstoftolerante-skip-value-upper" class="example-val range-val-upper">100</span>
+						
+					</li>					
 				</ul>
 			</section>
 		</aside>
@@ -101,7 +120,6 @@
 		
 		<section id="map"></section>
     <section id="webgl"></section>
-		
 		
     <script src="public/js/3dmap.js"></script>
     <script src="public/js/metromap.js"></script>
