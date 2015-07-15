@@ -478,7 +478,7 @@ li {
   color: inherit;
   background: none;
   cursor: pointer;
-  padding: 0.9375em 1.875em;
+  padding: 0.625em 0.9375em;
   display: inline-block;
   margin: 1.875em 0;
   text-transform: uppercase;
@@ -505,9 +505,9 @@ li {
 /* Button 1a */
 .btn-1a:hover,
 .btn-1a:active {
-  color: #2196f3;
-  background: #fff;
-  border: 3px solid #fff; }
+  color: white;
+  background: #323232;
+  border: 3px solid #323232; }
 
 .call-to-btn-1 {
   border: 3px solid #2196f3;
@@ -598,7 +598,6 @@ video {
   background: white;
   width: 15%;
   padding: 1% 0;
-  box-shadow: 0px 0px 5px 1px rgba(50, 50, 50, 0.3);
   overflow-y: auto; }
 
 .sideBar section {
@@ -659,6 +658,11 @@ video {
 .accordionWidget ul li h2 {
   margin-top: 1.2em;
   margin-bottom: 0; }
+
+.buttonControls {
+  padding: 8% 8%;
+  background: #323232;
+  color: white !important; }
 
 #map svg {
   max-width: 100%;

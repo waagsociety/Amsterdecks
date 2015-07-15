@@ -6,7 +6,6 @@
 	background: white;
 	width: 15%;
 	padding: $tiny-percentage 0;
-	box-shadow: $shadow;
 	overflow-y: auto;
 }
 .sideBar section{
@@ -72,4 +71,10 @@
 .accordionWidget ul li h2{
 	margin-top: 1.2em;
 	margin-bottom: 0;
+}
+
+.buttonControls{
+  padding: $medium-percentage $medium-percentage;
+  background: rgb(50,50,50);
+  color: white !important;
 }

@@ -142,6 +142,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/Speeltuin\/public\/js\/init.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/init.js",
+		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/init-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/Speeltuin\/public\/js\/javascript.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -153,14 +164,27 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/jquery.nouislider.min.css": {
-		"fileType": 16,
+	"\/Speeltuin\/public\/js\/jquery.nouislider.all.min.js": {
+		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/jquery.nouislider.min.css",
-		"outputAbbreviatedPath": "No Output Path",
+		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/jquery.nouislider.all.min.js",
+		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/jquery.nouislider.all.min-min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/Speeltuin\/public\/js\/jquery.nouislider.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/jquery.nouislider.min.js",
+		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/jquery.nouislider.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/Speeltuin\/public\/js\/lib\/d3.v3.min.js": {
 		"fileType": 64,
@@ -2095,7 +2119,7 @@
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
 	"displayValue": "Amsterdecks-speeltuin",
-	"displayValueWasSetByUser": 0,
+	"displayValueWasSetByUser": 1,
 	"iconImageName": "pencil_brown"
 	},
 "projectSettings": {

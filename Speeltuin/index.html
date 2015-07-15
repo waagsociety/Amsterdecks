@@ -7,47 +7,28 @@
     <link rel="stylesheet" href="public/css/main.css">
     
 		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-		<script src="public/js/lib/d3.v3.min.js" charset="utf-8"></script>
-    <script src="public/js/lib/topojson.v1.min.js"></script>
-    <script src="public/js/lib/three.min.js"></script>
-    <script src="public/js/lib/TrackballControls.js"></script>
-		<script src="public/js/lib/OrbitControls.js"></script>
-    <script src="public/js/lib/Detector.js"></script>
-    <script src="public/js/lib/turf.min.js"></script>
-    <script src="public/js/codemirror.js"></script>
-    <script src="public/js/javascript.js"></script>
-    <script src="public/js/geo.js"></script>
+    <script src="public/js/lib/d3.v3.min.js"></script>
     <script src="public/js/jquery.nouislider.all.min.js"></script>
-		
-		<script type="x-shader/x-vertex" id="vertexshader">
-			varying vec2 vUv;
-			
-			void main()
-			{
-				vUv = uv;
-				vec4 mvPosition = modelViewMatrix * vec4( position, 1.0 );
-				gl_Position = projectionMatrix * mvPosition;
-			}
-		</script>
-
-		<script type="x-shader/x-fragment" id="fragmentshader">
-			uniform float time;
-			uniform vec2 resolution;
-			
-			varying vec2 vUv;
-
-			void main( void ) {
-
-				vec2 position = 1.0 + 0.1 * vUv;
-
-				float red = abs( sin( position.x * position.y + time / 1.1 ) );
-				float green = abs( sin( position.x * position.y + time / 1.2 ) );
-				float blue = abs( sin( position.x * position.y + time / 1.3 ) );
-				gl_FragColor = vec4( red, green, blue, 1 );
-			}
-		</script>
+    <script src="public/md/defaults.js"></script>
+    <script src="public/md/constants.js"></script>
+    <script src="public/md/pentaField.js"></script>
+    <script src="public/md/particle.js"></script>
+    <script src="public/md/grid.js"></script>
+    <script src="public/md/MotionDisplay.js"></script>
+    <script src="public/md/functions.js"></script>
+    <script src="public/js/init.js"></script>
 	</head>
-  
+  <script>
+    var svg = d3.select("#svgmap").append("svg")
+            .attr("width", width)
+            .attr("height", height);
+
+svg.append("g")
+            .selectAll("path")
+            .data("data/water.amsterdam.json")
+            .enter().append("path")
+            .attr("d", path);
+  </script>
 	<body>
 		
 		
@@ -62,6 +43,7 @@
 				<h1 class="epsilon">Flow kaart <span class="icon-down right"></span></h1>
 				<ul>
 					<li><h2 class="zeta">Overstorts</h2></li>
+          <li><div id="slider"></div></li>
 					<li><p>100 - 200 Liter</p></li>
 					<li><p>200 - 300 Liter</p></li>
 					<li><p>300 - 400 Liter</p></li>
@@ -108,21 +90,17 @@
 					</li>					
 				</ul>
 			</section>
+      <section class="buttonControls">
+        <h2 class="epsilon">Bekijk de verschillende stroming gedurende: regenval, droogte, en gemiddeld.</h2>
+        <button id="varButton" class="btn-1 btn-1a"><span class="icon-eye"></span></button>
+      </section>
 		</aside>
-		<section class="views">
-			<ul>
-				<li><span class="icon-eye metromap"></span></li>
-				<li><span class="icon-world 3dmap"></span></li>
-			</ul>
-		</section>
-		
-		
-		
+		<div id="svgmap"></div>
 		<section id="map"></section>
-    <section id="webgl"></section>
 		
-    <script src="public/js/3dmap.js"></script>
+<!--
     <script src="public/js/metromap.js"></script>
+-->
     <script src="public/js/main.js"></script>
   </body>
 </html>

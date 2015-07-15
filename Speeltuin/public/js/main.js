@@ -17,22 +17,6 @@ $(document).on('click', '.open h1', function() {
 });
 
 
-$( document ).ready(function() {
-    // Clear #map DOM element first
-	$("#map").html("");
-	
-	// SVG Map
-	var watermap = document.getElementById("map");
-		d3.xml("data/metromap.svg", function(xml) {
-			watermap.appendChild(xml.documentElement);
-			$(document).on('click', '.open li p', function() { 
-				d3.selectAll("rect").style("display", "none");	
-				d3.selectAll(".prinsengracht rect").style("display", "block");	
-				
-				d3.selectAll(".prinsengracht rect").style("position", "absolute");	
-			});
-	});
-});
 
 
 // Slider Controls

@@ -5,7 +5,7 @@
 	color: inherit;
 	background: none;
 	cursor: pointer;
-	padding: $small-em $medium-em;
+	padding: $xsmall-em $small-em;
 	display: inline-block;
 	margin: $medium-em 0;
 	text-transform: uppercase;
@@ -32,9 +32,9 @@
 /* Button 1a */
 .btn-1a:hover,
 .btn-1a:active {
-	color: $brand-color;
-	background: #fff;
-	border: 3px solid #fff;
+	color: $canvas;
+	background: $darkgrey;
+	border: 3px solid $darkgrey;
 }
 
 .call-to-btn-1 {
