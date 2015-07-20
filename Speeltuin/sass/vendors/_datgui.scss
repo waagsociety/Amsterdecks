@@ -1,0 +1,32 @@
+#my-gui-container{
+  color: $darkgrey; 
+}
+#my-gui-container li{
+  background: $lightgrey;
+  color: $darkgrey;
+  font-size: 1.2em;
+  padding: $xsmall-percentage $medium-percentage;
+}
+#my-gui-container li:hover{
+  background: $hover;
+}
+.dg{
+  font: inherit !important;
+  font-size: .875em !important;
+}
+.dg .property-name{
+  text-shadow: none;
+}
+.dg .cr{
+  height: auto !important;
+}
+.dg li:not(.folder){
+  border-bottom: none !important;
+}
+.dg .has-slider input[type="text"]{
+  display: none !important;
+}
+
+.dg.main li{
+  border-left: none !important;
+}

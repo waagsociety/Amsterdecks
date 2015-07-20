@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Amsterdecks</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="public/css/main.css">
     
 		<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
@@ -11,96 +12,44 @@
     <script src="public/js/jquery.nouislider.all.min.js"></script>
     <script src="public/md/defaults.js"></script>
     <script src="public/md/constants.js"></script>
-    <script src="public/md/pentaField.js"></script>
+    <script src="public/md/fieldsInfo.js"></script>
     <script src="public/md/particle.js"></script>
     <script src="public/md/grid.js"></script>
     <script src="public/md/MotionDisplay.js"></script>
     <script src="public/md/functions.js"></script>
+    <script src="public/md/fieldsLoader.js"></script>
+    <script src="public/md/clip.js"></script>
     <script src="public/js/init.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.js"></script>
 	</head>
-  <script>
-    var svg = d3.select("#svgmap").append("svg")
-            .attr("width", width)
-            .attr("height", height);
-
-svg.append("g")
-            .selectAll("path")
-            .data("data/water.amsterdam.json")
-            .enter().append("path")
-            .attr("d", path);
-  </script>
 	<body>
-		
-		
-		
-		<aside class="sideBar">
-			<section>
-				<h1 class="gamma">Amsterdams water</h1>
-				<p>Kwaliteit van ons water</p>
+		<aside class="sideBar" id="sideBar">
+			<section class="intro">
+				<h1>The liquid commons</h1>
+				<p>Kwaliteit van het water (nadenken over een text om de kaart in context te plaatsen met het Amsterdecks project).</p>
 			</section>
 			<section class="accordionWidget closed">
-				
 				<h1 class="epsilon">Flow kaart <span class="icon-down right"></span></h1>
 				<ul>
-					<li><h2 class="zeta">Overstorts</h2></li>
-          <li><div id="slider"></div></li>
-					<li><p>100 - 200 Liter</p></li>
-					<li><p>200 - 300 Liter</p></li>
-					<li><p>300 - 400 Liter</p></li>
-					<li><p>500 - 600 Liter</p></li>
+          <li class="buttonControls">
+            <p>Bekijk de verschillende stroming gedurende: regenval, droogte, en gemiddeld.</p>
+            <button id="dryButton" class="btn-1 btn-1a varButton"><span id="variantName">Dry</span></button>
+            <button id="wetButton" class="btn-1 btn-1a varButton"><span id="variantName">Wet</span></button>
+            <button id="avgButton" class="btn-1 btn-1a varButton"><span id="variantName">Average</span></button>
+          </li>
+          <li><p>Met de controlers kan je verschillende instellingen maken</p></li>
+          <li class="noHover"><div id="my-gui-container"></div></li>
+          <li class="buttonControls">
+            <p>Switch tussen de eigenschappen van het water.</p>
+            <button id="dryButton" class="btn-1 btn-1a varButton"><span id="variantName">Diepte</span></button>
+            <button id="wetButton" class="btn-1 btn-1a varButton"><span id="variantName">Verontreiniging</span></button>
+          </li>
 				</ul>
 			</section>
-			
-			<section class="accordionWidget closed">
-				<h1 class="epsilon closed">Riool kaart <span class="icon-down right"></span></h1>
-				<ul>
-					<li><h2 class="zeta">Overstorts</h2></li>
-					<li><p>100 - 200 Liter</p></li>
-					<li><p>200 - 300 Liter</p></li>
-					<li><p>300 - 400 Liter</p></li>
-					<li><p>500 - 600 Liter</p></li>
-				</ul>
-			</section>
-			
-			<section class="accordionWidget closed">
-				<h1 class="epsilon closed">Ecologische  kaart <span class="icon-down right"></span></h1>
-				<ul>
-					<li class="ctrl-list-item noHover"> 
-						<h2 class="epsilon">Planten</h2>
-						
-						<p>Bedekkingspercentages planten (<span id="macrofyten-val"></span>%)</p>
-						<div id="macrofyten-slider"></div>
-						<span id="macrofyten-skip-value-lower" class="example-val range-val-lower">0</span>
-						<span id="macrofyten-skip-value-upper" class="example-val range-val-upper">100</span>
-					</li>
-					
-					<li class="ctrl-list-item noHover"> 
-						<h2 class="epsilon">Vissen</h2>
-						
-						<p>Plant minnende vissen</p>
-						<div id="plantminnend-slider"></div>
-						<span id="plantminnend-skip-value-lower" class="example-val range-val-lower">0</span>
-						<span id="plantminnend-skip-value-upper" class="example-val range-val-upper">100</span>
-						
-						<p>Zuurstoftolerante vissen</p>
-						<div id="zuurstoftolerante-slider"></div>
-						<span id="zuurstoftolerante-skip-value-lower" class="example-val range-val-lower">0</span>
-						<span id="zuurstoftolerante-skip-value-upper" class="example-val range-val-upper">100</span>
-						
-					</li>					
-				</ul>
-			</section>
-      <section class="buttonControls">
-        <h2 class="epsilon">Bekijk de verschillende stroming gedurende: regenval, droogte, en gemiddeld.</h2>
-        <button id="varButton" class="btn-1 btn-1a"><span class="icon-eye"></span></button>
-      </section>
 		</aside>
 		<div id="svgmap"></div>
 		<section id="map"></section>
-		
-<!--
-    <script src="public/js/metromap.js"></script>
--->
+    <script src="public/js/controls.js"></script>
     <script src="public/js/main.js"></script>
   </body>
 </html>

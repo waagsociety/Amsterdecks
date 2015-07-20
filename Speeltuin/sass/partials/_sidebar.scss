@@ -4,9 +4,9 @@
 	top: 0;
 	height: 100%;
 	background: white;
-	width: 15%;
-	padding: $tiny-percentage 0;
+	width: 25%;
 	overflow-y: auto;
+  border-right: 1px solid $canvas;
 }
 .sideBar section{
 	float: left;
@@ -19,9 +19,9 @@
 	color: $blue-500 !important;
 }
 .sideBar section p{
-	padding: 0 $medium-percentage $small-percentage;
+	padding: $xsmall-percentage $medium-percentage $tiny-percentage;
 }
-.sideBar section li>*{
+.sideBar section li>h2{
 	padding: $xsmall-percentage $medium-percentage;
 }
 .sideBar section p{
@@ -51,6 +51,10 @@
 //.accordionWidget>ul{
 //	margin-top: 1em;
 //}
+
+.accordionWidget.open .buttonControls:hover{
+  background: transparent;
+}
 .ctrl-list-item{
 	padding-top: 1%;
 }
@@ -72,9 +76,26 @@
 	margin-top: 1.2em;
 	margin-bottom: 0;
 }
-
-.buttonControls{
-  padding: $medium-percentage $medium-percentage;
-  background: rgb(50,50,50);
-  color: white !important;
+.sideBar .buttonControls p{
+  padding: 0;
 }
+.buttonControls{
+  padding: $medium-percentage $medium-percentage 0;
+  border-bottom: 1px solid white;
+  border-top: 1px solid white;
+}
+
+.intro h1{
+  padding: $xsmall-percentage $medium-percentage !important;
+  font-size: 3em;
+}
+
+.intro{
+  padding: $smedium-percentage 0;
+  border-bottom: $lightgrey 1px solid;
+}
+
+.close-button{
+  display: none;
+}
+

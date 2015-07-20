@@ -3,7 +3,7 @@ body {
 }
 #map {
   position: absolute;
-  left:15%;
+  left:25%;
   right: 0;
   height: 100%;
 }
@@ -31,4 +31,8 @@ body {
 
 .prinsengracht{
 transform-origin: center center;
+}
+
+.noHover:hover{
+  background: transparent;
 }
