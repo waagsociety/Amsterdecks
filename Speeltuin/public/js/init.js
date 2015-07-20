@@ -1,11 +1,29 @@
 $(document).ready(init);
 
 function init(){
-	console.log('attempting fields load with random field');
-  
+	// create buttons for loading fields
+	Object.keys(fieldSets).forEach(function(name){
+    var sideControlContainer = document.getElementById('sideContainer');
+    var element = document.createElement('a');
+    
+    element.innerHTML = name;
+    element.href = "#" + name + "" ;
+    element.classList.add('btn', 'btn-1','btn-1a');
+    element.setAttribute('data-setname', name);
+    
+    element.onclick = function(e){
+      e.preventDefault();
+			loadField(fieldSets[this.dataset.setname]);
+			return false;
+    };
+    sideControlContainer.appendChild(element);
+	});
+}
+
+function loadField(options){
+	  
   var mapElement = document.getElementById('map');
   
-  var options = fieldSets.grachtengordel;
   options.path = '/public/fields/';
   
   fieldsLoader(options, function(err, fields){
@@ -35,7 +53,7 @@ function init(){
       gridOptions: importedGridOptions,
 			width: Math.floor(importedGridOptions.width * scale),
 			height: Math.floor(importedGridOptions.height * scale),
-			clipPath: window.clipPath
+			clipPath: clipPaths[options.setName]
     });
     window.md = motionDisplay;
     

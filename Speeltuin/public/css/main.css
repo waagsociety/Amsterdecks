@@ -487,6 +487,7 @@ li {
   display: inline-block;
   margin: 1.875em 0;
   text-transform: uppercase;
+  text-decoration: none;
   outline: none;
   position: relative;
   -webkit-transition: all 0.3s;
@@ -555,7 +556,8 @@ body {
   position: absolute;
   left: 25%;
   right: 0;
-  height: 100%; }
+  height: 100%;
+  overflow: scroll; }
 
 .views {
   position: fixed;
@@ -699,6 +701,12 @@ video {
 
 .close-button {
   display: none; }
+
+#sideContainer {
+  padding: 0 8%; }
+
+#sideContainer .btn {
+  margin-right: 0.625em; }
 
 #map svg {
   max-width: 100%;

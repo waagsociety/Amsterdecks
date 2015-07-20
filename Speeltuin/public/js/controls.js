@@ -1,13 +1,14 @@
 var sideBarWidth = document.getElementById('sideBar').offsetWidth;
 var trailLenght = 0.75;
 
+
 var controls = function() {
   
 };
 
 function initMotionDisplayControls(motionDisplay) {
   var control = new controls();
-  var gui = new dat.GUI({ autoPlace: false, width: sideBarWidth - 1, load: JSON });
+  var gui = new dat.GUI({ autoPlace: false, width: sideBarWidth - 1});
 
   
     

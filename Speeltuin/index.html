@@ -19,14 +19,18 @@
     <script src="public/md/fieldsLoader.js"></script>
     <script src="public/md/clip-grachtengordel.js"></script>
     <script src="public/md/meta-grachtengordel.js"></script>
+    <script src="public/md/clip-vijfsprong.js"></script>
+    <script src="public/md/meta-vijfsprong.js"></script>
     <script src="public/js/init.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.js"></script>
+    
 	</head>
 	<body class="light">
 		<aside class="sideBar" id="sideBar">
 			<section class="intro">
 				<h1>The liquid commons</h1>
 				<p>Kwaliteit van het water (nadenken over een text om de kaart in context te plaatsen met het Amsterdecks project).</p>
+        <div id="sideContainer"></div>
 			</section>
 			<section class="accordionWidget closed">
 				<h1 class="epsilon">Flow kaart <span class="icon-down right"></span></h1>
@@ -37,7 +41,6 @@
             <button id="wetButton" class="btn-1 btn-1a varButton"><span id="variantName">Wet</span></button>
             <button id="avgButton" class="btn-1 btn-1a varButton"><span id="variantName">Average</span></button>
           </li>
-          <li><p>Met de controlers kan je verschillende instellingen maken</p></li>
           <li class="noHover"><div id="my-gui-container"></div></li>
 <!--
           <li class="buttonControls">

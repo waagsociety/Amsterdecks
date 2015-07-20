@@ -101,3 +101,10 @@
   display: none;
 }
 
+#sideContainer{
+  padding: 0 $medium-percentage;
+}
+
+#sideContainer .btn{
+  margin-right: $xsmall-em;
+}
