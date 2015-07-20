@@ -30,3 +30,30 @@
 .dg.main li{
   border-left: none !important;
 }
+.dg li:not(.folder){
+  height: auto !important;
+}
+
+.dg li.save-row select{
+  margin-left: 0 !important;
+}
+
+.dg li.save-row .button, .dg li.save-row .button.gears{
+  height: auto !important;
+  width: auto !important;
+  font-size: 1em !important;
+  padding: $small-percentage !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  color: $darkgrey !important;
+}
+.dg li.save-row .button{
+  background: transparent !important;
+  border: 2px solid $darkgrey;
+}
+.dg li.save-row option{
+  padding: $small-percentage !important;
+}
+.gears{
+  display: none !important;
+} 

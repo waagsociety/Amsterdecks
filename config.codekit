@@ -869,6 +869,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/Speeltuin\/public\/js\/min\/init-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/init-min.js",
+		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/min\/init-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/Speeltuin\/public\/js\/min\/main-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -1269,6 +1280,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/Speeltuin\/sass\/vendors\/_codemirror.scss",
 		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_codemirror.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/Speeltuin\/sass\/vendors\/_datgui.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/Speeltuin\/sass\/vendors\/_datgui.scss",
+		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_datgui.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

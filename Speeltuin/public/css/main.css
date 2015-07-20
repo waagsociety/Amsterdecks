@@ -50,8 +50,11 @@ table {
 div, section, nav {
   position: relative; }
 
-body {
+.light {
   background: #edebeb; }
+
+.dark {
+  background: #000; }
 
 /*!
 Animate.css - http://daneden.me/animate
@@ -612,7 +615,9 @@ video {
   background: white;
   width: 25%;
   overflow-y: auto;
-  border-right: 1px solid white; }
+  border-right: 1px solid white;
+  z-index: 9;
+  box-shadow: 3px 0px 5px rgba(50, 50, 50, 0.2); }
 
 .sideBar section {
   float: left;
@@ -882,6 +887,31 @@ video {
 
 .dg.main li {
   border-left: none !important; }
+
+.dg li:not(.folder) {
+  height: auto !important; }
+
+.dg li.save-row select {
+  margin-left: 0 !important; }
+
+.dg li.save-row .button, .dg li.save-row .button.gears {
+  height: auto !important;
+  width: auto !important;
+  font-size: 1em !important;
+  padding: 4% !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  color: #323232 !important; }
+
+.dg li.save-row .button {
+  background: transparent !important;
+  border: 2px solid #323232; }
+
+.dg li.save-row option {
+  padding: 4% !important; }
+
+.gears {
+  display: none !important; }
 
 /* BASICS */
 .CodeMirror {
