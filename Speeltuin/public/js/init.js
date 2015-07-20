@@ -1,16 +1,25 @@
 $(document).ready(init);
 
 function init(){
+	console.log('attempting fields load with random field');
+  
   var mapElement = document.getElementById('map');
   
-  fieldsLoader({ path: '/public/fields/' }, function(err, fields){
+  var options = fieldSets.grachtengordel;
+  options.path = '/public/fields/';
+  
+  fieldsLoader(options, function(err, fields){
     console.log(err || 'starting field system');
     if(err) throw(err);
 
     //document.querySelector('section').appendChild(motionDisplay.canvas);
-    var importedGridOptions = {
-      width: window.exportX,//1107,//336,
-      height: window.exportY,//1103,//314,
+    var dynamicGridOptions = {
+      width: $(mapElement).innerWidth(),
+      height: $(mapElement).innerHeight(),	
+    },
+    importedGridOptions = {
+      width: options.x,//1107,//336,
+      height: options.y,//1103,//314,
       fields: fields,
       timePassing: true
     };
@@ -19,8 +28,9 @@ function init(){
 			fieldAspect = importedGridOptions.width / importedGridOptions.height,
 			wider = fieldAspect > winAspect,
 			scale = !wider ? $(mapElement).innerWidth() / importedGridOptions.width : $(mapElement).innerHeight() / importedGridOptions.height;
+    
     var motionDisplay = new MotionDisplay({
-      //debugField: true,
+      debugField: false,
       background: 'rgba(11,41,91,'+ trailLenght +')',
       gridOptions: importedGridOptions,
 			width: Math.floor(importedGridOptions.width * scale),
