@@ -69,29 +69,10 @@ function loadField(options){
     document.addEventListener('keyup', function(e){
       console.log(e.keyCode);
       if(e.keyCode === 13){
-        if(motionDisplay.debugField){
-          motionDisplay.debugField = false;
-          motionDisplay.start();
-        } else {
-          motionDisplay.debugField = true;
-          motionDisplay.running = false;
-        }
-        return;
+        md.debugField = !md.debugField;
+        if(md.debugField) md.showFieldSpeed = !md.showFieldSpeed;
       }
 
-      if(e.keyCode === 86){
-        motionDisplay.grid.nextVariant();
-        return;
-      }
-
-      if(e.keyCode === 84){
-        motionDisplay.grid.nextTime();
-        return;
-      }
-
-      if(e.keyCode === 80){
-        motionDisplay.grid.toggleTimePassing();
-      }
     });
 
     $(motionDisplay.canvas).on('click', function(e){
