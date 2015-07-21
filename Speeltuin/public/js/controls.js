@@ -10,7 +10,7 @@ function initMotionDisplayControls(motionDisplay) {
   var control = new controls();
   var gui = new dat.GUI({ autoPlace: false, width: sideBarWidth - 1});
 
-  gui.add(motionDisplay, 'timeStep').min(0).max(0.1).onChange(function(val){
+  gui.add(motionDisplay, 'timeStep').min(0).max(18).onChange(function(val){
     motionDisplay.grid.timePassing = true;
     return val;
   });
