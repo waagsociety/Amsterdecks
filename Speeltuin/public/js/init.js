@@ -66,14 +66,11 @@ function loadField(options){
 		motionDisplay.canvas.style.height = Math.floor(importedGridOptions.height * scale) + 'px';
     
     
-    document.addEventListener('keyup', function(e){
-      console.log(e.keyCode);
-      if(e.keyCode === 13){
+    var fieldButton = document.getElementById('fieldBtn');
+    fieldButton.onclick=function(){
         md.debugField = !md.debugField;
         if(md.debugField) md.showFieldSpeed = !md.showFieldSpeed;
-      }
-
-    });
+    };
 
     $(motionDisplay.canvas).on('click', function(e){
       console.log(motionDisplay.grid.getLocalV({ x: e.offsetX, y: e.offsetY }));

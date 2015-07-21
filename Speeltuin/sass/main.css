@@ -864,11 +864,11 @@ video {
 
 /* line 104, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
 #sideContainer {
-  padding: 0 8%; }
+  padding: 8%; }
 
 /* line 108, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/sidebar */
-#sideContainer .btn {
-  margin-right: 0.625em; }
+#sideContainer .btn, #sideContainer button {
+  margin: 0.625em 0.625em 0 0; }
 
 /* line 5, /Users/martinrisseeuw/Dropbox/Development projects/Amsterdecks-speeltuin/Speeltuin/sass/partials/map */
 #map svg {

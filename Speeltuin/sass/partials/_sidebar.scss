@@ -102,9 +102,9 @@
 }
 
 #sideContainer{
-  padding: 0 $medium-percentage;
+  padding: $medium-percentage;
 }
 
-#sideContainer .btn{
-  margin-right: $xsmall-em;
+#sideContainer .btn, #sideContainer button{
+  margin: $xsmall-em $xsmall-em 0 0;
 }
