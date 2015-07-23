@@ -39,10 +39,10 @@ gulp.task('js', function() {
 
 gulp.task('scripts', function(){ 
     var target = gulp.src('src/jade/index.jade');
-    var jsPath = gulp.src(['src/scripts/*.js'], {read: false});
+    var initFilePath = gulp.src(['src/scripts/init.js'], {read: false});
     var mdPath = gulp.src(['src/scripts/md/clip-*.js', 'src/scripts/md/meta-*.js'], {read: false});
     var exportString = 'public/js';
-    return target.pipe(inject(series(mdPath, jsPath),{
+    return target.pipe(inject(series(mdPath, initFilePath),{
                 ignorePath: 'src/scripts',
                 addPrefix: exportString,
                 addRootSlash: true
