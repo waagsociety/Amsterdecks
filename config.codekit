@@ -2,964 +2,854 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "18270",
 "files": {
-	"\/Speeltuin\/back_up.html": {
+	"\/back_up.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/back_up.html",
+		"inputAbbreviatedPath": "\/back_up.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Speeltuin\/images\/breda.jpg": {
+	"\/images\/breda.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 277841,
-		"inputAbbreviatedPath": "\/Speeltuin\/images\/breda.jpg",
-		"outputAbbreviatedPath": "\/Speeltuin\/images\/breda.jpg",
+		"inputAbbreviatedPath": "\/images\/breda.jpg",
+		"outputAbbreviatedPath": "\/images\/breda.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Speeltuin\/images\/disable-warnings.jpg": {
+	"\/images\/disable-warnings.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 38672,
-		"inputAbbreviatedPath": "\/Speeltuin\/images\/disable-warnings.jpg",
-		"outputAbbreviatedPath": "\/Speeltuin\/images\/disable-warnings.jpg",
+		"inputAbbreviatedPath": "\/images\/disable-warnings.jpg",
+		"outputAbbreviatedPath": "\/images\/disable-warnings.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Speeltuin\/images\/municipalities.jpg": {
+	"\/images\/municipalities.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 256591,
-		"inputAbbreviatedPath": "\/Speeltuin\/images\/municipalities.jpg",
-		"outputAbbreviatedPath": "\/Speeltuin\/images\/municipalities.jpg",
+		"inputAbbreviatedPath": "\/images\/municipalities.jpg",
+		"outputAbbreviatedPath": "\/images\/municipalities.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/Speeltuin\/index.html": {
+	"\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/index.html",
+		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Speeltuin\/public\/css\/codemirror.css": {
+	"\/public\/css\/codemirror.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/css\/codemirror.css",
+		"inputAbbreviatedPath": "\/public\/css\/codemirror.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Speeltuin\/public\/css\/main.css": {
+	"\/public\/css\/main.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/css\/main.css",
+		"inputAbbreviatedPath": "\/public\/css\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Speeltuin\/public\/css\/normalize.css": {
+	"\/public\/css\/normalize.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/css\/normalize.css",
+		"inputAbbreviatedPath": "\/public\/css\/normalize.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Speeltuin\/public\/css\/skeleton.css": {
+	"\/public\/css\/skeleton.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/css\/skeleton.css",
+		"inputAbbreviatedPath": "\/public\/css\/skeleton.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Speeltuin\/public\/css\/style.css": {
+	"\/public\/css\/style.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/css\/style.css",
+		"inputAbbreviatedPath": "\/public\/css\/style.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Speeltuin\/public\/js\/3dmap.js": {
+	"\/public\/js\/codemirror.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/3dmap.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/3dmap-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/codemirror.js",
+		"outputAbbreviatedPath": "\/public\/js\/min\/codemirror-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/codemirror.js": {
+	"\/public\/js\/d3-threeD.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/codemirror.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/codemirror-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/d3-threeD.js",
+		"outputAbbreviatedPath": "\/public\/js\/min\/d3-threeD-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/d3-threeD.js": {
+	"\/public\/js\/geo.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/d3-threeD.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/d3-threeD-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/geo.js",
+		"outputAbbreviatedPath": "\/public\/js\/min\/geo-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/geo.js": {
+	"\/public\/js\/javascript.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/geo.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/geo-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/javascript.js",
+		"outputAbbreviatedPath": "\/public\/js\/min\/javascript-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/init.js": {
+	"\/public\/js\/lib\/d3.v3.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/init.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/init-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/d3.v3.min.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/min\/d3.v3.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/javascript.js": {
+	"\/public\/js\/lib\/Detector.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/javascript.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/javascript-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/Detector.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/min\/Detector-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/jquery.nouislider.all.min.js": {
+	"\/public\/js\/lib\/OrbitControls.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/jquery.nouislider.all.min.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/jquery.nouislider.all.min-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/OrbitControls.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/min\/OrbitControls-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/jquery.nouislider.min.js": {
+	"\/public\/js\/lib\/postprocessing\/AdaptiveToneMappingPass.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/jquery.nouislider.min.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/jquery.nouislider.min-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/AdaptiveToneMappingPass.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/min\/AdaptiveToneMappingPass-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/d3.v3.min.js": {
+	"\/public\/js\/lib\/postprocessing\/BloomPass.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/d3.v3.min.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/min\/d3.v3.min-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/BloomPass.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/min\/BloomPass-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/Detector.js": {
+	"\/public\/js\/lib\/postprocessing\/BokehPass.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/Detector.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/min\/Detector-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/BokehPass.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/min\/BokehPass-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/OrbitControls.js": {
+	"\/public\/js\/lib\/postprocessing\/DotScreenPass.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/OrbitControls.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/min\/OrbitControls-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/DotScreenPass.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/min\/DotScreenPass-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/postprocessing\/AdaptiveToneMappingPass.js": {
+	"\/public\/js\/lib\/postprocessing\/EffectComposer.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/AdaptiveToneMappingPass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/min\/AdaptiveToneMappingPass-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/EffectComposer.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/min\/EffectComposer-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/postprocessing\/BloomPass.js": {
+	"\/public\/js\/lib\/postprocessing\/FilmPass.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/BloomPass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/min\/BloomPass-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/FilmPass.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/min\/FilmPass-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/postprocessing\/BokehPass.js": {
+	"\/public\/js\/lib\/postprocessing\/GlitchPass.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/BokehPass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/min\/BokehPass-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/GlitchPass.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/min\/GlitchPass-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/postprocessing\/DotScreenPass.js": {
+	"\/public\/js\/lib\/postprocessing\/MaskPass.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/DotScreenPass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/min\/DotScreenPass-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/MaskPass.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/min\/MaskPass-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/postprocessing\/EffectComposer.js": {
+	"\/public\/js\/lib\/postprocessing\/RenderPass.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/EffectComposer.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/min\/EffectComposer-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/RenderPass.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/min\/RenderPass-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/postprocessing\/FilmPass.js": {
+	"\/public\/js\/lib\/postprocessing\/SavePass.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/FilmPass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/min\/FilmPass-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/SavePass.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/min\/SavePass-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/postprocessing\/GlitchPass.js": {
+	"\/public\/js\/lib\/postprocessing\/ShaderPass.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/GlitchPass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/min\/GlitchPass-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/ShaderPass.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/min\/ShaderPass-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/postprocessing\/MaskPass.js": {
+	"\/public\/js\/lib\/postprocessing\/TexturePass.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/MaskPass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/min\/MaskPass-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/TexturePass.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/postprocessing\/min\/TexturePass-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/postprocessing\/RenderPass.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/RenderPass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/min\/RenderPass-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/public\/js\/lib\/postprocessing\/SavePass.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/SavePass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/min\/SavePass-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/public\/js\/lib\/postprocessing\/ShaderPass.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/ShaderPass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/min\/ShaderPass-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/public\/js\/lib\/postprocessing\/TexturePass.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/TexturePass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/postprocessing\/min\/TexturePass-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/public\/js\/lib\/README.md": {
+	"\/public\/js\/lib\/README.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
 		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/README.md",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/README.html",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/README.md",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/README.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/BasicShader.js": {
+	"\/public\/js\/lib\/shaders\/BasicShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/BasicShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/BasicShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/BasicShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/BasicShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/BleachBypassShader.js": {
+	"\/public\/js\/lib\/shaders\/BleachBypassShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/BleachBypassShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/BleachBypassShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/BleachBypassShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/BleachBypassShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/BlendShader.js": {
+	"\/public\/js\/lib\/shaders\/BlendShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/BlendShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/BlendShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/BlendShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/BlendShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/BokehShader.js": {
+	"\/public\/js\/lib\/shaders\/BokehShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/BokehShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/BokehShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/BokehShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/BokehShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/BokehShader2.js": {
+	"\/public\/js\/lib\/shaders\/BokehShader2.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/BokehShader2.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/BokehShader2-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/BokehShader2.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/BokehShader2-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/BrightnessContrastShader.js": {
+	"\/public\/js\/lib\/shaders\/BrightnessContrastShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/BrightnessContrastShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/BrightnessContrastShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/BrightnessContrastShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/BrightnessContrastShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/ColorCorrectionShader.js": {
+	"\/public\/js\/lib\/shaders\/ColorCorrectionShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/ColorCorrectionShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/ColorCorrectionShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/ColorCorrectionShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/ColorCorrectionShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/ColorifyShader.js": {
+	"\/public\/js\/lib\/shaders\/ColorifyShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/ColorifyShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/ColorifyShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/ColorifyShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/ColorifyShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/ConvolutionShader.js": {
+	"\/public\/js\/lib\/shaders\/ConvolutionShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/ConvolutionShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/ConvolutionShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/ConvolutionShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/ConvolutionShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/CopyShader.js": {
+	"\/public\/js\/lib\/shaders\/CopyShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/CopyShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/CopyShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/CopyShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/CopyShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/DigitalGlitch.js": {
+	"\/public\/js\/lib\/shaders\/DigitalGlitch.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/DigitalGlitch.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/DigitalGlitch-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/DigitalGlitch.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/DigitalGlitch-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/DOFMipMapShader.js": {
+	"\/public\/js\/lib\/shaders\/DOFMipMapShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/DOFMipMapShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/DOFMipMapShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/DOFMipMapShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/DOFMipMapShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/DotScreenShader.js": {
+	"\/public\/js\/lib\/shaders\/DotScreenShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/DotScreenShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/DotScreenShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/DotScreenShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/DotScreenShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/EdgeShader.js": {
+	"\/public\/js\/lib\/shaders\/EdgeShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/EdgeShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/EdgeShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/EdgeShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/EdgeShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/EdgeShader2.js": {
+	"\/public\/js\/lib\/shaders\/EdgeShader2.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/EdgeShader2.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/EdgeShader2-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/EdgeShader2.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/EdgeShader2-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/FilmShader.js": {
+	"\/public\/js\/lib\/shaders\/FilmShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/FilmShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/FilmShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/FilmShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/FilmShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/FocusShader.js": {
+	"\/public\/js\/lib\/shaders\/FocusShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/FocusShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/FocusShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/FocusShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/FocusShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/FresnelShader.js": {
+	"\/public\/js\/lib\/shaders\/FresnelShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/FresnelShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/FresnelShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/FresnelShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/FresnelShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/FXAAShader.js": {
+	"\/public\/js\/lib\/shaders\/FXAAShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/FXAAShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/FXAAShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/FXAAShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/FXAAShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/HorizontalBlurShader.js": {
+	"\/public\/js\/lib\/shaders\/HorizontalBlurShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/HorizontalBlurShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/HorizontalBlurShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/HorizontalBlurShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/HorizontalBlurShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/HorizontalTiltShiftShader.js": {
+	"\/public\/js\/lib\/shaders\/HorizontalTiltShiftShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/HorizontalTiltShiftShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/HorizontalTiltShiftShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/HorizontalTiltShiftShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/HorizontalTiltShiftShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/HueSaturationShader.js": {
+	"\/public\/js\/lib\/shaders\/HueSaturationShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/HueSaturationShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/HueSaturationShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/HueSaturationShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/HueSaturationShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/KaleidoShader.js": {
+	"\/public\/js\/lib\/shaders\/KaleidoShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/KaleidoShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/KaleidoShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/KaleidoShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/KaleidoShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/LuminosityShader.js": {
+	"\/public\/js\/lib\/shaders\/LuminosityShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/LuminosityShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/LuminosityShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/LuminosityShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/LuminosityShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/MirrorShader.js": {
+	"\/public\/js\/lib\/shaders\/MirrorShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/MirrorShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/MirrorShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/MirrorShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/MirrorShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/NormalDisplacementShader.js": {
+	"\/public\/js\/lib\/shaders\/NormalDisplacementShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/NormalDisplacementShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/NormalDisplacementShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/NormalDisplacementShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/NormalDisplacementShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/NormalMapShader.js": {
+	"\/public\/js\/lib\/shaders\/NormalMapShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/NormalMapShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/NormalMapShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/NormalMapShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/NormalMapShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/OceanShaders.js": {
+	"\/public\/js\/lib\/shaders\/OceanShaders.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/OceanShaders.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/OceanShaders-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/OceanShaders.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/OceanShaders-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/ParallaxShader.js": {
+	"\/public\/js\/lib\/shaders\/ParallaxShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/ParallaxShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/ParallaxShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/ParallaxShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/ParallaxShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/RGBShiftShader.js": {
+	"\/public\/js\/lib\/shaders\/RGBShiftShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/RGBShiftShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/RGBShiftShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/RGBShiftShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/RGBShiftShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/SepiaShader.js": {
+	"\/public\/js\/lib\/shaders\/SepiaShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/SepiaShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/SepiaShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/SepiaShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/SepiaShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/SSAOShader.js": {
+	"\/public\/js\/lib\/shaders\/SSAOShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/SSAOShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/SSAOShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/SSAOShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/SSAOShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/TechnicolorShader.js": {
+	"\/public\/js\/lib\/shaders\/TechnicolorShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/TechnicolorShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/TechnicolorShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/TechnicolorShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/TechnicolorShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/ToneMapShader.js": {
+	"\/public\/js\/lib\/shaders\/ToneMapShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/ToneMapShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/ToneMapShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/ToneMapShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/ToneMapShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/TriangleBlurShader.js": {
+	"\/public\/js\/lib\/shaders\/TriangleBlurShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/TriangleBlurShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/TriangleBlurShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/TriangleBlurShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/TriangleBlurShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/UnpackDepthRGBAShader.js": {
+	"\/public\/js\/lib\/shaders\/UnpackDepthRGBAShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/UnpackDepthRGBAShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/UnpackDepthRGBAShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/UnpackDepthRGBAShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/UnpackDepthRGBAShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/VerticalBlurShader.js": {
+	"\/public\/js\/lib\/shaders\/VerticalBlurShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/VerticalBlurShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/VerticalBlurShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/VerticalBlurShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/VerticalBlurShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/VerticalTiltShiftShader.js": {
+	"\/public\/js\/lib\/shaders\/VerticalTiltShiftShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/VerticalTiltShiftShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/VerticalTiltShiftShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/VerticalTiltShiftShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/VerticalTiltShiftShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/shaders\/VignetteShader.js": {
+	"\/public\/js\/lib\/shaders\/VignetteShader.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/VignetteShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/shaders\/min\/VignetteShader-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/shaders\/VignetteShader.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/shaders\/min\/VignetteShader-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/three.min.js": {
+	"\/public\/js\/lib\/three.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/three.min.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/min\/three.min-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/three.min.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/min\/three.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/topojson.v1.min.js": {
+	"\/public\/js\/lib\/topojson.v1.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/topojson.v1.min.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/min\/topojson.v1.min-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/topojson.v1.min.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/min\/topojson.v1.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/TrackballControls.js": {
+	"\/public\/js\/lib\/TrackballControls.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/TrackballControls.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/min\/TrackballControls-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/TrackballControls.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/min\/TrackballControls-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/lib\/turf.min.js": {
+	"\/public\/js\/lib\/turf.min.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/turf.min.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/lib\/min\/turf.min-min.js",
+		"inputAbbreviatedPath": "\/public\/js\/lib\/turf.min.js",
+		"outputAbbreviatedPath": "\/public\/js\/lib\/min\/turf.min-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/Speeltuin\/public\/js\/main.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/main.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/main-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/public\/js\/metromap.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/metromap.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/metromap-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/public\/js\/min\/3dmap-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/3dmap-min.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/min\/3dmap-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/public\/js\/min\/init-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/init-min.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/min\/init-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/public\/js\/min\/main-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/main-min.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/min\/main-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/public\/js\/min\/metromap-min.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/metromap-min.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/min\/min\/metromap-min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/public\/js\/README.md": {
+	"\/public\/js\/README.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
 		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/public\/js\/README.md",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/js\/README.html",
+		"inputAbbreviatedPath": "\/public\/js\/README.md",
+		"outputAbbreviatedPath": "\/public\/js\/README.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Speeltuin\/README.md": {
+	"\/README.md": {
 		"enableFootnoteSupport": 0,
 		"enableSmartyPants": 1,
 		"expandTabs": 1,
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/README.md",
-		"outputAbbreviatedPath": "\/Speeltuin\/README.html",
+		"inputAbbreviatedPath": "\/README.md",
+		"outputAbbreviatedPath": "\/README.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Speeltuin\/sass\/main.css": {
+	"\/sass\/main.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/main.css",
+		"inputAbbreviatedPath": "\/sass\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Speeltuin\/sass\/main.scss": {
+	"\/sass\/main.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/main.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/public\/css\/main.css",
+		"inputAbbreviatedPath": "\/sass\/main.scss",
+		"outputAbbreviatedPath": "\/public\/css\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Speeltuin\/sass\/modules\/_all.scss": {
+	"\/sass\/modules\/_all.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/modules\/_all.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_all.css",
+		"inputAbbreviatedPath": "\/sass\/modules\/_all.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_all.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -967,15 +857,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Speeltuin\/sass\/modules\/_animation.scss": {
+	"\/sass\/modules\/_animation.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/modules\/_animation.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_animation.css",
+		"inputAbbreviatedPath": "\/sass\/modules\/_animation.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_animation.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -983,15 +873,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Speeltuin\/sass\/modules\/_colors.scss": {
+	"\/sass\/modules\/_colors.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/modules\/_colors.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_colors.css",
+		"inputAbbreviatedPath": "\/sass\/modules\/_colors.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_colors.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -999,15 +889,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Speeltuin\/sass\/modules\/_measurements.scss": {
+	"\/sass\/modules\/_measurements.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/modules\/_measurements.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_measurements.css",
+		"inputAbbreviatedPath": "\/sass\/modules\/_measurements.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_measurements.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1015,15 +905,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Speeltuin\/sass\/modules\/_reset.scss": {
+	"\/sass\/modules\/_reset.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/modules\/_reset.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_reset.css",
+		"inputAbbreviatedPath": "\/sass\/modules\/_reset.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_reset.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1031,15 +921,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Speeltuin\/sass\/partials\/_base.scss": {
+	"\/sass\/partials\/_base.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/partials\/_base.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_base.css",
+		"inputAbbreviatedPath": "\/sass\/partials\/_base.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_base.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1047,15 +937,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Speeltuin\/sass\/partials\/_buttons.scss": {
+	"\/sass\/partials\/_buttons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/partials\/_buttons.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_buttons.css",
+		"inputAbbreviatedPath": "\/sass\/partials\/_buttons.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_buttons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1063,15 +953,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Speeltuin\/sass\/partials\/_elements.scss": {
+	"\/sass\/partials\/_elements.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/partials\/_elements.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_elements.css",
+		"inputAbbreviatedPath": "\/sass\/partials\/_elements.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_elements.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1079,15 +969,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Speeltuin\/sass\/partials\/_forms.scss": {
+	"\/sass\/partials\/_forms.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/partials\/_forms.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_forms.css",
+		"inputAbbreviatedPath": "\/sass\/partials\/_forms.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_forms.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1095,15 +985,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Speeltuin\/sass\/partials\/_icons.scss": {
+	"\/sass\/partials\/_icons.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/partials\/_icons.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_icons.css",
+		"inputAbbreviatedPath": "\/sass\/partials\/_icons.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_icons.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1111,15 +1001,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Speeltuin\/sass\/partials\/_images.scss": {
+	"\/sass\/partials\/_images.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/partials\/_images.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_images.css",
+		"inputAbbreviatedPath": "\/sass\/partials\/_images.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_images.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1127,15 +1017,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Speeltuin\/sass\/partials\/_layout.scss": {
+	"\/sass\/partials\/_layout.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/partials\/_layout.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_layout.css",
+		"inputAbbreviatedPath": "\/sass\/partials\/_layout.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_layout.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1143,15 +1033,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Speeltuin\/sass\/partials\/_map.scss": {
+	"\/sass\/partials\/_mediaqueries.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/partials\/_map.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_map.css",
+		"inputAbbreviatedPath": "\/sass\/partials\/_mediaqueries.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_mediaqueries.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1159,15 +1049,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Speeltuin\/sass\/partials\/_mediaqueries.scss": {
+	"\/sass\/partials\/_menus.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/partials\/_mediaqueries.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_mediaqueries.css",
+		"inputAbbreviatedPath": "\/sass\/partials\/_menus.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_menus.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1175,15 +1065,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Speeltuin\/sass\/partials\/_menus.scss": {
+	"\/sass\/partials\/_search.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/partials\/_menus.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_menus.css",
+		"inputAbbreviatedPath": "\/sass\/partials\/_search.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_search.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1191,15 +1081,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Speeltuin\/sass\/partials\/_search.scss": {
+	"\/sass\/partials\/_skeleton.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/partials\/_search.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_search.css",
+		"inputAbbreviatedPath": "\/sass\/partials\/_skeleton.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_skeleton.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1207,15 +1097,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Speeltuin\/sass\/partials\/_sidebar.scss": {
+	"\/sass\/partials\/_typical_classes.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/partials\/_sidebar.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_sidebar.css",
+		"inputAbbreviatedPath": "\/sass\/partials\/_typical_classes.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_typical_classes.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1223,15 +1113,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Speeltuin\/sass\/partials\/_typical_classes.scss": {
+	"\/sass\/partials\/_typography.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/partials\/_typical_classes.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_typical_classes.css",
+		"inputAbbreviatedPath": "\/sass\/partials\/_typography.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_typography.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1239,15 +1129,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Speeltuin\/sass\/partials\/_typography.scss": {
+	"\/sass\/partials\/_video.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/partials\/_typography.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_typography.css",
+		"inputAbbreviatedPath": "\/sass\/partials\/_video.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_video.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1255,15 +1145,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Speeltuin\/sass\/partials\/_video.scss": {
+	"\/sass\/vendors\/_codemirror.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/partials\/_video.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_video.css",
+		"inputAbbreviatedPath": "\/sass\/vendors\/_codemirror.scss",
+		"outputAbbreviatedPath": "\/sass\/css\/_codemirror.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1271,868 +1161,47 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/Speeltuin\/sass\/vendors\/_codemirror.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/vendors\/_codemirror.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_codemirror.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/Speeltuin\/sass\/vendors\/_datgui.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/vendors\/_datgui.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_datgui.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/Speeltuin\/sass\/vendors\/_uislider.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/sass\/vendors\/_uislider.scss",
-		"outputAbbreviatedPath": "\/Speeltuin\/sass\/css\/_uislider.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/Speeltuin\/shader_voorbeeld.html": {
+	"\/shader_voorbeeld.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/shader_voorbeeld.html",
+		"inputAbbreviatedPath": "\/shader_voorbeeld.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Speeltuin\/svgmap\/css\/codemirror.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/css\/codemirror.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/Speeltuin\/svgmap\/css\/normalize.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/css\/normalize.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/Speeltuin\/svgmap\/css\/skeleton.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/css\/skeleton.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/Speeltuin\/svgmap\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/Speeltuin\/svgmap\/images\/breda.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 277841,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/images\/breda.jpg",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/images\/breda.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/Speeltuin\/svgmap\/images\/disable-warnings.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 38672,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/images\/disable-warnings.jpg",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/images\/disable-warnings.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/Speeltuin\/svgmap\/images\/municipalities.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 256591,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/images\/municipalities.jpg",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/images\/municipalities.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/Speeltuin\/svgmap\/index.html": {
+	"\/testsvg.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/index.html",
+		"inputAbbreviatedPath": "\/testsvg.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Speeltuin\/svgmap\/js\/codemirror.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/codemirror.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/min\/codemirror-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/geo.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/geo.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/min\/geo-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/javascript.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/javascript.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/min\/javascript-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/d3.v3.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/d3.v3.min.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/min\/d3.v3.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/Detector.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/Detector.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/min\/Detector-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/OrbitControls.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/OrbitControls.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/min\/OrbitControls-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/AdaptiveToneMappingPass.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/AdaptiveToneMappingPass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/min\/AdaptiveToneMappingPass-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/BloomPass.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/BloomPass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/min\/BloomPass-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/BokehPass.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/BokehPass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/min\/BokehPass-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/DotScreenPass.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/DotScreenPass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/min\/DotScreenPass-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/EffectComposer.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/EffectComposer.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/min\/EffectComposer-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/FilmPass.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/FilmPass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/min\/FilmPass-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/GlitchPass.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/GlitchPass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/min\/GlitchPass-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/MaskPass.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/MaskPass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/min\/MaskPass-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/RenderPass.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/RenderPass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/min\/RenderPass-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/SavePass.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/SavePass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/min\/SavePass-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/ShaderPass.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/ShaderPass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/min\/ShaderPass-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/TexturePass.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/TexturePass.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/postprocessing\/min\/TexturePass-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/README.md",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/README.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/BasicShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/BasicShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/BasicShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/BleachBypassShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/BleachBypassShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/BleachBypassShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/BlendShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/BlendShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/BlendShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/BokehShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/BokehShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/BokehShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/BokehShader2.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/BokehShader2.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/BokehShader2-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/BrightnessContrastShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/BrightnessContrastShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/BrightnessContrastShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/ColorCorrectionShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/ColorCorrectionShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/ColorCorrectionShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/ColorifyShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/ColorifyShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/ColorifyShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/ConvolutionShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/ConvolutionShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/ConvolutionShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/CopyShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/CopyShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/CopyShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/DigitalGlitch.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/DigitalGlitch.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/DigitalGlitch-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/DOFMipMapShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/DOFMipMapShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/DOFMipMapShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/DotScreenShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/DotScreenShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/DotScreenShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/EdgeShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/EdgeShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/EdgeShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/EdgeShader2.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/EdgeShader2.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/EdgeShader2-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/FilmShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/FilmShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/FilmShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/FocusShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/FocusShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/FocusShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/FresnelShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/FresnelShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/FresnelShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/FXAAShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/FXAAShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/FXAAShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/HorizontalBlurShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/HorizontalBlurShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/HorizontalBlurShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/HorizontalTiltShiftShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/HorizontalTiltShiftShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/HorizontalTiltShiftShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/HueSaturationShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/HueSaturationShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/HueSaturationShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/KaleidoShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/KaleidoShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/KaleidoShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/LuminosityShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/LuminosityShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/LuminosityShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/MirrorShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/MirrorShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/MirrorShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/NormalDisplacementShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/NormalDisplacementShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/NormalDisplacementShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/NormalMapShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/NormalMapShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/NormalMapShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/OceanShaders.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/OceanShaders.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/OceanShaders-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/ParallaxShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/ParallaxShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/ParallaxShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/RGBShiftShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/RGBShiftShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/RGBShiftShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/SepiaShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/SepiaShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/SepiaShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/SSAOShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/SSAOShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/SSAOShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/TechnicolorShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/TechnicolorShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/TechnicolorShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/ToneMapShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/ToneMapShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/ToneMapShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/TriangleBlurShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/TriangleBlurShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/TriangleBlurShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/UnpackDepthRGBAShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/UnpackDepthRGBAShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/UnpackDepthRGBAShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/VerticalBlurShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/VerticalBlurShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/VerticalBlurShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/VerticalTiltShiftShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/VerticalTiltShiftShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/VerticalTiltShiftShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/shaders\/VignetteShader.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/VignetteShader.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/shaders\/min\/VignetteShader-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/three.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/three.min.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/min\/three.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/topojson.v1.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/topojson.v1.min.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/min\/topojson.v1.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/TrackballControls.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/TrackballControls.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/min\/TrackballControls-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/lib\/turf.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/turf.min.js",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/lib\/min\/turf.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/Speeltuin\/svgmap\/js\/README.md": {
-		"enableFootnoteSupport": 0,
-		"enableSmartyPants": 1,
-		"expandTabs": 1,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/README.md",
-		"outputAbbreviatedPath": "\/Speeltuin\/svgmap\/js\/README.html",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/Speeltuin\/testsvg.html": {
+	"\/webgl_shader2 2.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/testsvg.html",
+		"inputAbbreviatedPath": "\/webgl_shader2 2.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Speeltuin\/webgl_shader2 2.html": {
+	"\/webgl_shader2.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/webgl_shader2 2.html",
+		"inputAbbreviatedPath": "\/webgl_shader2.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/Speeltuin\/webgl_shader2.html": {
+	"\/webgl_shader3.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/webgl_shader2.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/Speeltuin\/webgl_shader3.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/Speeltuin\/webgl_shader3.html",
+		"inputAbbreviatedPath": "\/webgl_shader3.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2145,9 +1214,9 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "Amsterdecks-speeltuin",
-	"displayValueWasSetByUser": 1,
-	"iconImageName": "pencil_brown"
+	"displayValue": "Speeltuin",
+	"displayValueWasSetByUser": 0,
+	"iconImageName": "globe_yellow"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 0,
