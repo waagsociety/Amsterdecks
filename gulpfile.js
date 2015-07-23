@@ -45,7 +45,7 @@ gulp.task('scripts', function(){
     return target.pipe(inject(series(mdPath, initFilePath),{
                 ignorePath: 'src/scripts',
                 addPrefix: exportString,
-                addRootSlash: true
+                addRootSlash: false
             }))
     .pipe(gulp.dest('src/jade/'))
 		.pipe(browserSync.reload({stream:true}))
