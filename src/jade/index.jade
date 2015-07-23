@@ -1,8 +1,70 @@
-include ./header.jade
-header.box
-  p This is Martin's boiler plate
-main
-  p It's simple and easy
-footer
-  p It makes use of Jade, Stylus, Gulp
-  button haha
+doctype html
+html
+  head
+    meta(charset='utf-8')
+    title Amsterdecks
+    meta(name='viewport', content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0') 
+    link(href='http://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700', rel='stylesheet', type='text/css')
+    link(rel='stylesheet', href='public/css/main.css')
+    script(src="public/js/output.min.js")
+    
+    script(src="public/js/md/defaults.js")
+    script(src="public/js/md/constants.js")
+    script(src="public/js/md/particle.js")
+    script(src="public/js/md/grid.js")
+    script(src="public/js/md/MotionDisplay.js")
+    script(src="public/js/md/functions.js")
+    script(src="public/js/md/fieldsLoader.js")
+    
+    //- inject:js
+    script(src="/public/js/md/clip-brouwersgracht.js")
+    script(src="/public/js/md/clip-grAmsterdam.js")
+    script(src="/public/js/md/clip-grachtengordel.js")
+    script(src="/public/js/md/clip-havengebied.js")
+    script(src="/public/js/md/clip-kostverloren.js")
+    script(src="/public/js/md/clip-naarden.js")
+    script(src="/public/js/md/clip-vijfsprong.js")
+    script(src="/public/js/md/clip-wtv.js")
+    script(src="/public/js/md/meta-brouwersgracht.js")
+    script(src="/public/js/md/meta-grAmsterdam.js")
+    script(src="/public/js/md/meta-grachtengordel.js")
+    script(src="/public/js/md/meta-havengebied.js")
+    script(src="/public/js/md/meta-kostverloren.js")
+    script(src="/public/js/md/meta-naarden.js")
+    script(src="/public/js/md/meta-vijfsprong.js")
+    script(src="/public/js/md/meta-wtv.js")
+    script(src="/public/js/controls.js")
+    script(src="/public/js/main.js")
+    //- endinject
+    
+  body.light
+    aside#sideBar.sideBar
+      section.intro
+        h1 The liquid commons
+        p
+          | Kwaliteit van het water (nadenken over een text om de kaart in context te plaatsen met het Amsterdecks project.a      
+        #sideContainer
+          button#fieldBtn.btn-1.btn-1a Veld weergevena
+      section.accordionWidget.closed
+        h1.epsilon
+          | Flowkaart 
+          span.icon-down.right
+        ul
+          li.buttonControls
+            p Bekijk de verschillende stroming gedurende: regenval, droogte, en gemidadeld.
+            |             
+            button#dryButton.btn-1.btn-1a.varButton
+              span#variantName Droog
+            |             
+            button#avgButton.btn-1.btn-1a.varButton
+              span#variantName Gemiddeld
+            |             
+            button#wetButton.btn-1.btn-1a.varButton
+              span#variantName Regenval
+          |           
+          li.noHover
+            #my-gui-container
+    #svgmap
+    section#map
+    script(src="//cdnjs.cloudflare.com/ajax/libs/dat-gui/0.5/dat.gui.js")
+    script(src="/public/js/init.js")    

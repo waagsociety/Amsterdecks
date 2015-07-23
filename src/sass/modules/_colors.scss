@@ -1,0 +1,53 @@
+$brand-color: #2196f3;
+$dark-brand-color: darken( $brand-color, 10% );
+$light-brand-color: lighten( $brand-color, 10% );
+
+
+// Material design blue
+$blue-50: #e3f2fd;
+$blue-100: #bbdefb;
+$blue-200: #90caf9;
+$blue-300: #64b5f6;
+$blue-400: #42a5f5;
+$blue-500: #2196f3;
+$blue-600: #1e88e5;
+$blue-700: #1976d2;
+$blue-800: #1565c0;
+$blue-900: #0d47a1;
+$blue-A100: #82b1ff;
+$blue-A200: #448aff;
+$blue-A400: #2979ff;
+$blue-A700: red;
+
+$orange: rgb(255,171,84);
+$lightgrey: rgb(237,235,235);
+$mediumgrey: rgb(102,102,102);
+$darkgrey: rgb(50,50,50);
+$defaultLinkColor: $brand-color;
+$dark-background-color: #000;
+$light-background-color: $lightgrey;
+$canvas: white;
+$hover: darken( $lightgrey, 10% );
+
+$canvas-vivid: white;
+$canvas-hard: white;
+$canvas-soft: #eee;
+$canvas-dim: #ddd;
+
+$content: #333;
+	
+$feature: blue; // widget, 'special canvas'
+$primary: navy; // main branding
+$secondary: purple; // secondary branding
+
+$glow: rgba(255,255,255,.6);
+$shade: rgba(0,0,0,.4);
+
+$shadow: 0px 0px 5px 1px rgba(50,50,50,.3);
+
+.light{
+	background: $light-background-color;
+}
+.dark{
+	background: $dark-background-color;
+}
