@@ -928,6 +928,9 @@ video {
 .gears {
   display: none !important; }
 
+body {
+  font-size: 100% !important; }
+
 /* BASICS */
 .CodeMirror {
   /* Set height, width, borders, and global font properties here */

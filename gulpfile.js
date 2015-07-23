@@ -15,14 +15,14 @@ var gulp = require('gulp'),
 gulp.task('css', function () {
   gulp.src('src/sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('build/public/css'))
+    .pipe(gulp.dest('public/css'))
     .pipe(browserSync.reload({stream:true}))
 });
 
 gulp.task('html', function() {
   gulp.src('src/jade/*.jade')
     .pipe(jade())
-    .pipe(gulp.dest('build'))
+    .pipe(gulp.dest('./'))
 		.pipe(browserSync.reload({stream:true}))
 });
 
@@ -33,7 +33,7 @@ gulp.task('js', function() {
     // concat pulls all our files together before minifying them
     .pipe( concat('output.min.js') )
     .pipe(uglify())
-    .pipe(gulp.dest('build/public/js'))
+    .pipe(gulp.dest('public/js'))
 });
 
 
@@ -53,13 +53,13 @@ gulp.task('scripts', function(){
 
 gulp.task('copy', function(){
   gulp.src('src/scripts/*.js')
-    .pipe(gulp.dest('build/public/js'));
+    .pipe(gulp.dest('public/js'));
   
   gulp.src('src/scripts/md/*.js')
-    .pipe(gulp.dest('build/public/js/md'));
+    .pipe(gulp.dest('public/js/md'));
   
   gulp.src('src/fields/*.png')
-    .pipe(gulp.dest('build/public/fields'));
+    .pipe(gulp.dest('public/fields'));
 });
 
 gulp.task('jshint', function() {
@@ -77,7 +77,7 @@ gulp.task('watch', function () {
 gulp.task('browser-sync', function() {
   browserSync({
     server: {
-      baseDir: "build"
+      baseDir: ""
     }
   });
 });
