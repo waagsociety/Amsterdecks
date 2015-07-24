@@ -135,7 +135,7 @@ function MotionDisplay(options){
 
 			p.step(grid);
 		}
-    ctx.strokeStyle = '#4a68eb';
+    ctx.strokeStyle = '#ffffff';
 		ctx.stroke();
 	};
   
