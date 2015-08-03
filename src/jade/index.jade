@@ -6,8 +6,9 @@ html
     meta(name='viewport', content='width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0') 
     link(href='http://fonts.googleapis.com/css?family=Open+Sans|Montserrat:700', rel='stylesheet', type='text/css')
     link(rel='stylesheet', href='public/css/main.css')
-    script(src="public/js/output.min.js")
     
+    script(src="public/js/output.min.js")
+preloadImage("public/images/intro_loader.gif");
     script(src="public/js/md/defaults.js")
     script(src="public/js/md/constants.js")
     script(src="public/js/md/particle.js")
@@ -36,10 +37,13 @@ html
     script(src="public/js/init.js")
     //- endinject
     
-  body.light
+  body#loader.dark.loader
+    #loaderPage.loaderPage
     aside#sideBar.sideBar
       section.intro
-        h1 The liquid commons
+        .logoContainer
+          img(src="/public/images/logo_nodrop.svg" title="logo")
+          h1 Liquid commons
         p
           | Kwaliteit van het water (nadenken over een text om de kaart in context te plaatsen met het Amsterdecks project).      
         #sideContainer

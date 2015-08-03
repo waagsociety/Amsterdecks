@@ -50,7 +50,7 @@ div, section, nav {
 
 /* line 51, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/modules/colors */
 .dark {
-  background: #000; }
+  background: #252b30; }
 
 /*!
 Animate.css - http://daneden.me/animate
@@ -680,7 +680,7 @@ body {
 /* line 4, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/layout */
 #map {
   position: absolute;
-  left: 25%;
+  left: 30%;
   right: 0;
   height: 100%;
   overflow: scroll; }
@@ -714,6 +714,12 @@ body {
 /* line 37, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/layout */
 .noHover:hover {
   background: transparent; }
+
+/* line 41, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/layout */
+#map canvas {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
 
 /* line 1, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/menus */
 .logo {
@@ -751,7 +757,7 @@ video {
   top: 0;
   height: 100%;
   background: white;
-  width: 25%;
+  width: 30%;
   overflow-y: auto;
   border-right: 1px solid white;
   z-index: 9;
@@ -767,108 +773,126 @@ video {
   padding: 4% 8%; }
 
 /* line 20, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+.logoContainer {
+  padding: 4% 8% 0;
+  max-width: 60%;
+  margin: auto; }
+
+/* line 25, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+.logoContainer h1 {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 0; }
+
+/* line 31, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .accordionWidget h1 span {
   color: #2196f3 !important; }
 
-/* line 23, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 34, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .sideBar section p {
   padding: 2% 8% 1%; }
 
-/* line 26, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 37, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .sideBar section li > h2 {
   padding: 2% 8%; }
 
-/* line 29, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 40, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .sideBar section p {
   margin-bottom: 0; }
 
-/* line 32, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 43, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .sideBar section h2 {
   margin-bottom: 0.5em; }
 
-/* line 35, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 46, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .sideBar section ul {
   display: none; }
 
-/* line 38, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 49, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .accordionWidget {
   cursor: pointer;
   border-bottom: 1px solid white;
   transition: all 0.15s cubic-bezier(1, -0.005, 0.72, 1.005); }
 
-/* line 43, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 54, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .accordionWidget:hover {
   background-color: #edebeb; }
 
-/* line 46, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 57, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .accordionWidget.open {
   background-color: #edebeb; }
 
-/* line 49, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 60, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .accordionWidget.open li:hover {
   background-color: #d5d0d0; }
 
-/* line 57, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 68, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .accordionWidget.open .buttonControls:hover {
   background: transparent; }
 
-/* line 60, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 71, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .ctrl-list-item {
   padding-top: 1%; }
 
-/* line 63, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 74, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .range-val-lower {
   text-align: left; }
 
-/* line 66, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 77, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .range-val-upper {
   text-align: right;
   float: right; }
 
-/* line 70, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 81, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .noHover:hover, .ctrl-list-item:hover {
   background: transparent !important; }
 
-/* line 73, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 84, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .noHover {
   cursor: auto !important; }
 
-/* line 77, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 88, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .accordionWidget ul li h2 {
   margin-top: 1.2em;
   margin-bottom: 0; }
 
-/* line 81, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 92, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .sideBar .buttonControls p {
   padding: 0; }
 
-/* line 84, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 95, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .buttonControls {
   padding: 8% 8% 0;
   border-bottom: 1px solid white;
   border-top: 1px solid white; }
 
-/* line 90, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 101, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .intro h1 {
   padding: 2% 8% !important;
   font-size: 3em; }
 
-/* line 95, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 106, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .intro {
   padding: 6% 0;
   border-bottom: #edebeb 1px solid; }
 
-/* line 100, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 111, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 .close-button {
   display: none; }
 
-/* line 104, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 115, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 #sideContainer {
   padding: 8%; }
 
-/* line 108, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+/* line 119, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
 #sideContainer .btn, #sideContainer button {
   margin: 0.625em 0.625em 0 0; }
+
+/* line 123, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/sidebar */
+#sideContainer .active {
+  background-color: #323232;
+  color: white; }
 
 /* line 5, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/map */
 #map svg {
@@ -891,6 +915,31 @@ video {
 /* line 21, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/map */
 #map svg g:hover {
   opacity: 1; }
+
+/* line 1, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/loader */
+.loader {
+  overflow: hidden; }
+
+/* line 4, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/loader */
+.loader .loaderPage {
+  background-size: contain;
+  display: block;
+  opacity: 1; }
+
+/* line 9, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/loader */
+.loaderPage {
+  background-image: url(../images/intro_loader.gif);
+  background-color: #edebeb;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  position: fixed;
+  overflow: hidden;
+  z-index: 999;
+  height: 100%;
+  width: 100%;
+  transition: all 0.2s ease-in;
+  opacity: 0; }
 
 /* Functional styling;
  * These styles are required for noUiSlider to function.

@@ -1,0 +1,22 @@
+.loader{
+  overflow: hidden;
+}
+.loader .loaderPage{
+  background-size: contain;
+  display: block;
+  opacity: 1;
+}
+.loaderPage{
+  background-image: url(../images/intro_loader.gif);
+  background-color: $lightgrey;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  position: fixed;
+  overflow: hidden;
+  z-index: 999;
+  height: 100%;
+  width: 100%;
+  transition: all .2s ease-in;
+  opacity: 0;
+}

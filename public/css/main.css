@@ -54,7 +54,7 @@ div, section, nav {
   background: #edebeb; }
 
 .dark {
-  background: #000; }
+  background: #252b30; }
 
 /*!
 Animate.css - http://daneden.me/animate
@@ -561,7 +561,7 @@ body {
 
 #map {
   position: absolute;
-  left: 25%;
+  left: 30%;
   right: 0;
   height: 100%;
   overflow: scroll; }
@@ -590,6 +590,11 @@ body {
 
 .noHover:hover {
   background: transparent; }
+
+#map canvas {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
 
 .logo {
   max-width: 60px;
@@ -622,7 +627,7 @@ video {
   top: 0;
   height: 100%;
   background: white;
-  width: 25%;
+  width: 30%;
   overflow-y: auto;
   border-right: 1px solid white;
   z-index: 9;
@@ -634,6 +639,17 @@ video {
 
 .sideBar section h1 {
   padding: 4% 8%; }
+
+.logoContainer {
+  padding: 4% 8% 0;
+  max-width: 60%;
+  margin: auto; }
+
+.logoContainer h1 {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin-bottom: 0; }
 
 .accordionWidget h1 span {
   color: #2196f3 !important; }
@@ -715,6 +731,10 @@ video {
 #sideContainer .btn, #sideContainer button {
   margin: 0.625em 0.625em 0 0; }
 
+#sideContainer .active {
+  background-color: #323232;
+  color: white; }
+
 #map svg {
   max-width: 100%;
   max-height: 100%;
@@ -732,6 +752,28 @@ video {
 
 #map svg g:hover {
   opacity: 1; }
+
+.loader {
+  overflow: hidden; }
+
+.loader .loaderPage {
+  background-size: contain;
+  display: block;
+  opacity: 1; }
+
+.loaderPage {
+  background-image: url(../images/intro_loader.gif);
+  background-color: #edebeb;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  position: fixed;
+  overflow: hidden;
+  z-index: 999;
+  height: 100%;
+  width: 100%;
+  transition: all 0.2s ease-in;
+  opacity: 0; }
 
 /* Functional styling;
  * These styles are required for noUiSlider to function.

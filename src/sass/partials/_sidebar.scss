@@ -4,7 +4,7 @@
 	top: 0;
 	height: 100%;
 	background: white;
-	width: 25%;
+	width: 30%;
 	overflow-y: auto;
   border-right: 1px solid $canvas;
   z-index: 9;
@@ -16,6 +16,17 @@
 }
 .sideBar section h1{
 	padding: $small-percentage $medium-percentage;
+}
+.logoContainer{
+	padding: $small-percentage $medium-percentage 0;
+  max-width: 60%;
+  margin: auto;
+}
+.logoContainer h1{
+  text-indent: 100%; 
+  white-space: nowrap; 
+  overflow: hidden;
+  margin-bottom: 0;
 }
 .accordionWidget h1 span{
 	color: $blue-500 !important;
@@ -107,4 +118,9 @@
 
 #sideContainer .btn, #sideContainer button{
   margin: $xsmall-em $xsmall-em 0 0;
+}
+
+#sideContainer .active{
+  background-color: $darkgrey;
+  color: white;
 }

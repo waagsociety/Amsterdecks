@@ -60,6 +60,9 @@ gulp.task('copy', function(){
   
   gulp.src('src/fields/*.png')
     .pipe(gulp.dest('public/fields'));
+  
+  gulp.src('src/images/*.*')
+    .pipe(gulp.dest('public/images'));
 });
 
 gulp.task('jshint', function() {
@@ -69,9 +72,9 @@ gulp.task('jshint', function() {
 });
 
 gulp.task('watch', function () {
-  gulp.watch('src/jade/*.jade', ['html']);
-  gulp.watch('src/sass/**/*.scss', ['css']);
-  gulp.watch('src/scripts/*.js', ['html', 'scripts']);
+  gulp.watch('src/jade/*.jade', ['html', 'copy']);
+  gulp.watch('src/sass/**/*.scss', ['css', 'copy']);
+  gulp.watch('src/scripts/*.js', ['html', 'scripts', 'copy']);
 });
 
 gulp.task('browser-sync', function() {

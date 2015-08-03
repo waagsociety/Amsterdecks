@@ -3,7 +3,7 @@ body {
 }
 #map {
   position: absolute;
-  left:25%;
+  left:30%;
   right: 0;
   height: 100%;
   overflow: scroll;
@@ -36,4 +36,10 @@ transform-origin: center center;
 
 .noHover:hover{
   background: transparent;
+}
+
+#map canvas{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }

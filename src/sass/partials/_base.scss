@@ -10,11 +10,11 @@
 @import 'forms';
 @import 'sidebar';
 @import 'map';
+@import 'loader';
 @import 'elements';
 @import '../vendors/uislider';
 @import '../vendors/datgui';
 @import 'mediaqueries';
-
 body{
   font-size: 100% !important;
 }

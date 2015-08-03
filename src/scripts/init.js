@@ -8,7 +8,8 @@ function init(){
 
     element.innerHTML = name;
     element.href = "#" + name + "" ;
-    element.classList.add('btn', 'btn-1','btn-1a');
+    element.id = name;
+    element.classList.add('btn', 'btn-1','btn-1a', name);
     element.setAttribute('data-setname', name);
 
     element.onclick = function(e){
@@ -45,11 +46,11 @@ function loadField(options){
     var winAspect = $(mapElement).innerWidth() / $(mapElement).innerHeight(),
 			fieldAspect = importedGridOptions.width / importedGridOptions.height,
 			wider = fieldAspect > winAspect,
-			scale = !wider ? $(mapElement).innerWidth() / importedGridOptions.width : $(mapElement).innerHeight() / importedGridOptions.height;
+			scale = wider ? $(mapElement).innerWidth() / importedGridOptions.width : $(mapElement).innerHeight() / importedGridOptions.height;
 
     var motionDisplay = new MotionDisplay({
       debugField: false,
-      background: 'rgba(11,41,91,'+ trailLenght +')',
+      background: 'rgba(76,101,127,'+ trailLenght +')',
       gridOptions: importedGridOptions,
 			width: Math.floor(importedGridOptions.width * scale),
 			height: Math.floor(importedGridOptions.height * scale),
@@ -77,4 +78,29 @@ function loadField(options){
       console.log(motionDisplay.grid.getLocalV({ x: e.offsetX + Math.random(), y: e.offsetY + Math.random() }));
     });
   });
+}
+
+function pageLoader(){
+  var loaderBox = document.getElementById("loader");
+  var loaderPage = document.getElementById("loaderPage");
+  loaderPage.remove();
+  loaderBox.className = "dark";
+};
+
+function loadFirstView(){  
+  var firstViewBtn = document.getElementById("grAmsterdam");
+  firstViewBtn.click();
+  firstViewBtn.className += ' active';
+}
+
+function preloadImage(url)
+{
+    var img=new Image();
+    img.src=url;
+}  
+preloadImage("public/images/intro_loader.gif");
+setTimeout(pageLoader, 5000);
+
+window.onload = function(){
+  loadFirstView();
 }
