@@ -39,13 +39,15 @@ function MotionDisplay(options){
 
 	this.createParticles();
 
-	document.addEventListener('visibilitychange', function(e){
+  this.visibilityHandler = function(e){
 		if(document.hidden){
 			this.stop();
 		} else {
 			this.start();
 		}
-	}.bind(this));
+	}.bind(this);
+  
+	document.addEventListener('visibilitychange', this.visibilityHandler);
 
   this.timeStep = options.timeStep || 0.5;
 	this.start();

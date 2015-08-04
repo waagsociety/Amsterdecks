@@ -14,6 +14,11 @@ function init(){
 
     element.onclick = function(e){
       e.preventDefault();
+      if(window.md){        
+        md.stop();
+        document.removeEventListener('visibilitychange', md.visibilityHandler);
+        document.getElementById('map').innerHTML = "";
+      }
 			loadField(fieldSets[this.dataset.setname]);
 			return false;
     };
@@ -93,12 +98,6 @@ function loadFirstView(){
   firstViewBtn.className += ' active';
 }
 
-function preloadImage(url)
-{
-    var img=new Image();
-    img.src=url;
-}  
-preloadImage("public/images/intro_loader.gif");
 setTimeout(pageLoader, 5000);
 
 window.onload = function(){

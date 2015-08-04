@@ -682,10 +682,9 @@ body {
   position: absolute;
   left: 30%;
   right: 0;
-  height: 100%;
-  overflow: scroll; }
+  height: 100%; }
 
-/* line 12, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/layout */
+/* line 11, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/layout */
 .views {
   position: fixed;
   right: 0;
@@ -695,7 +694,7 @@ body {
   background: white;
   box-shadow: 0px 0px 5px 1px rgba(50, 50, 50, 0.3); }
 
-/* line 22, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/layout */
+/* line 21, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/layout */
 .views li {
   display: inline;
   font-size: 2.5em;
@@ -703,23 +702,24 @@ body {
   line-height: 0;
   cursor: pointer; }
 
-/* line 29, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/layout */
+/* line 28, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/layout */
 .views li:first-child {
   margin-right: 0.4em; }
 
-/* line 33, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/layout */
+/* line 32, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/layout */
 .prinsengracht {
   transform-origin: center center; }
 
-/* line 37, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/layout */
+/* line 36, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/layout */
 .noHover:hover {
   background: transparent; }
 
-/* line 41, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/layout */
+/* line 40, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/layout */
 #map canvas {
   position: absolute;
   top: 50%;
-  transform: translateY(-50%); }
+  left: 50%;
+  transform: translate(-50%, -50%); }
 
 /* line 1, /Users/martinrisseeuw/Dropbox/Development projects/amsterdecks/src/sass/partials/menus */
 .logo {

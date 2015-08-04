@@ -14,6 +14,11 @@ function init(){
 
     element.onclick = function(e){
       e.preventDefault();
+      if(window.md){        
+        md.stop();
+        document.removeEventListener('visibilitychange', md.visibilityHandler);
+        document.getElementById('map').innerHTML = "";
+      }
 			loadField(fieldSets[this.dataset.setname]);
 			return false;
     };
